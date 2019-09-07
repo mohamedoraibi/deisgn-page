@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <svg
+          class="svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 198.96 50.44"
+        >
+          <path
+            d="M147.71 11a5.51 5.51 0 1 0-5.5-5.51 5.51 5.51 0 0 0 5.5 5.51zm4.99 29.56V14.64h-15.5v9.28h6.22v25.92h15.49v-9.28h-6.21zm-26.49 0V2.54h-15.49v9.28h6.21v28.74h-6.21v9.28h21.7v-9.28h-6.21zM60.25 14.52h-2.81a12.17 12.17 0 0 0-10.75 5.39l-1.89-5.27h-9.11v9.28H40v25.92h9.28V31.72a8.16 8.16 0 0 1 8.16-8.16h2.81zm42.98 18.35V14.64H94V33.2a8.29 8.29 0 0 1-16.58 0V14.64h-9.33v18.23a17.57 17.57 0 0 0 35.14 0zM27.6 23.92v-9.28H15.49V3.28H6.22v11.36H0v9.28h6.22v8.92a17.56 17.56 0 0 0 17.56 17.57A17.74 17.74 0 0 0 27.6 50v-9.17a9.28 9.28 0 0 1-3.18.56 8.78 8.78 0 0 1-8.93-8.61v-8.86zm162.09-9.28v3.5a13.08 13.08 0 0 0-9.14-4h-.72c-9.17 0-16.6 8.12-16.6 18.15s7.43 18.19 16.6 18.15h.72a13.08 13.08 0 0 0 9.14-4v3.5H199v-35.3zm-8.81 26.82a9.06 9.06 0 0 1-8.88-9.23 8.85 8.85 0 1 1 17.69 0 9 9 0 0 1-8.81 9.23z"
+          ></path>
+        </svg>
+      </div>
+
+      <nav>
+        <div id="left-nav">
+          <a href="" class="btn btn-colorless">اشتري</a>
+          <a href="" class="btn btn-colorless">اجر</a>
+          <a href="" class="btn btn-colorless">بيع</a>
+        </div>
+        <div id="right-nav">
+          <a href="" class="btn btn-colorless">البيوت المسيفة</a>
+          <a href="" class="btn btn-colorless">السيرج المسيف</a>
+          <a href="" class="btn btn-bordered">اشترك او سجل دخولك</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="search-section">
+        <div class="center width-500">
+          <p id="slogan">
+            لكي المكان الي يعجبك
+          </p>
+          <div id="search-selector" class="flex">
+            <button class="btn search-filter active">للشراء</button>
+            <button class="btn search-filter">للايجار</button>
+            <button class="btn search-filter">مبيوع</button>
+          </div>
+          <form action="" method="POST">
+            <input
+              type="text"
+              name="search-location"
+              placeholder="المكان او المحلة"
+              required
+            />
+            <input type="reset" value="&#xf00d" />
+            <input type="submit" value="&#xf002" />
+          </form>
+        </div>
+      </section>
+      <section id="services-section">
+        <h3 class="center">شوف شلون نكدر نساعدك</h3>
+        <div class="center flex">
+          <div class="service-card">
+                <svg style="margin:auto;display:block" height="125" width="125" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#052286" d="M74.701 98.336l7.45-2.582-7.132-20.572 15.762 13.55 5.86-5.26-15.095-13.609 17.774 3.378-5.799-8.21-11.853-3.552 20.57-7.13-2.581-7.451-20.57 7.132 14.248-16.462-5.96-5.16-14.25 16.461 4.11-21.38L69.492 26l-4.11 21.382L58.25 26.81l-7.45 2.581 7.133 20.571-16.462-14.25-5.16 5.961 16.462 14.25-21.382-4.11-1.487 7.743 21.381 4.11-20.572 7.131 2.582 7.45 20.572-7.131-10.11 11.677 1.82 9.944 14.25-16.46-4.11 21.38 7.744 1.488 4.11-21.381"></path><path d="M35.152 91.204h5.99v-10.8h-5.99v10.8zm17.854-40.59L24.648 72.306V102h53.998V72.307l-25.64-21.694z" fill="#00ADBB"></path><path d="M100.938 75.256c0-5.934-4.81-10.745-10.745-10.745-2.976 0-5.669 1.21-7.615 3.164l-3.932 3.932-3.932-3.932A10.71 10.71 0 0 0 67.1 64.51c-5.935 0-10.746 4.811-10.746 10.745 0 2.971 1.206 5.66 3.154 7.606l3.941 3.941L78.646 102l15.196-15.197 3.942-3.941a10.712 10.712 0 0 0 3.154-7.606" fill="#CEB7FF"></path></g></svg>
+            <h4>اشتري بيت</h4>
+            <p>عدنا اكثر من الف بيت اختار الي يعجبك والباقي علينا</p>
+            <a href="" class="btn btn-default">اشتري بيت</a>
+          </div>
+          <div class="service-card">
+                <svg style="margin:auto;display:block" height="125" width="125" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#730731" d="M104.766 53.382H86.299l15.993-9.234-3.446-5.969-15.993 9.234 9.233-15.993-5.968-3.446-9.234 15.993V25.5h-6.892v18.467l-9.234-15.993-5.968 3.446 9.234 15.993 7.431 12.86-26.87 9.234 3.445 5.97 15.994-9.234-9.234 15.993 5.968 3.446 9.234-15.994v18.468h6.892V69.688l9.234 15.994 5.968-3.446-9.233-15.993 15.993 9.233 3.446-5.969L86.3 60.274h18.467z"></path><path d="M44.01 54.66h21.732L54.83 43.265 44.01 54.66zm-11.263 0L54.804 31.43 77.05 54.66h11.293V95.5H23V54.66h9.747z" fill="#FF8C68"></path></g></svg>
+            <h4>اجر بيت</h4>
+            <p>عدنا اكثر من الف بيت اختار الي يعجبك والباقي علينا</p>
+            <a href="" class="btn btn-default">اجر بيت</a>
+          </div>
+          <div class="service-card">
+                <svg style="margin:auto;display:block" height="125" width="125" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M72.087 17.431c0-9.51-7.755-17.22-17.32-17.22-4.796 0-9.137 1.94-12.274 5.07l-6.337 6.302-6.338-6.301A17.319 17.319 0 0 0 17.545.21C7.979.21.225 7.92.225 17.43c0 4.76 1.943 9.07 5.083 12.187v.001l6.354 6.317 24.494 24.353L60.65 35.936l6.354-6.317a17.117 17.117 0 0 0 5.083-12.188" fill="#B6CCBC" mask="url(#mask-2)" transform="translate(51.718 25)"></path><path d="M48.307 49.359v12.89H35.154V101h52.615V67.415H69.356V49.36h-21.05zm-5.784 23.753h5.788v-5.68h-5.788v5.68zm5.772 12.405h5.788v-5.68h-5.788v5.68z" fill="#124124"></path><path d="M27.146 17.709l4.832-6.79v6.79h-4.832zm-2.733 8.173h7.565v-4.22h-7.565v4.22zm11.523-14.54V2.094a1.977 1.977 0 0 0-1.98-1.977 1.978 1.978 0 0 0-1.978 1.977v5.201c-2.134-.002-5.15.001-7.565.005V2.094a1.978 1.978 0 1 0-3.957 0v5.214L0 36.051h14.092l6.364-8.942v8.942h3.957v-6.216h7.565v6.216h3.958V11.342z" fill="#FF5D3E" mask="url(#mask-4)" transform="translate(3 64.949)"></path></g></svg>
+            <h4>شوف المناطق</h4>
+            <p>عدنا اكثر من الف بيت اختار الي يعجبك والباقي علينا</p>
+            <a href="" class="btn btn-default">اعرف المزيد</a>
+          </div>
+        </div>
+      </section>
+      <section id="explorer-section" class="center">
+        <h3>شوف المناطق الي بتروليا</h3>
+        <p>
+          اخذلك فرة وارجعلي، الصور جوة ملتقطة بالدرونات والكاميرات الرقمية
+          للاحياة الموجودة عدنا
+        </p>
+        <div class="carosel">
+          <div class="column">
+            <div id="fist-column" class="image-card-lg">
+              <h5>بغداد</h5>
+              <h2>الكرادة</h2>
+              <a href="#">شوف المنطقة</a>
+            </div>
+          </div>
+          <div class="column">
+            <div  id="color-column-sm"class="image-card-sm">
+              <h5>بغداد</h5>
+              <h2>المنصور</h2>
+              <a href="#">شوف المنطقة</a>
+            </div>
+            <div id="second-column" class="image-card-sm">
+              <h5>بغداد</h5>
+              <h2>شارع الربيعي</h2>
+              <a href="#">شوف المنطقة</a>
+            </div>
+          </div>
+          <div class="column">
+            <div id="forth-column" class="image-card-lg">
+                <h5>بغداد</h5>
+              <h2>حي الجامعة</h2>
+              <a href="#">شوف المنطقة</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
